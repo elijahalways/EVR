@@ -32,10 +32,10 @@ Notebook names begin with `evr_`, representing **e**ngineering **v**isa **r**ese
 ### Filter
 
 - **`evr_fdf`** — Produces a **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_ and _internships/placements_
-- **`evr_egfdf`** — Produces a sampled **e**ngineering and **g**raduate **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_ and _graduates_
-- **`evr_efdf`** — Produces a sampled **e**ngineering **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_
-- **`evr_ipfdf`** — Produces a sampled **i**nternships/**p**lacements **f**iltered **d**ata**f**rame containing vacancies relevant to _internships/placements_
-- **`evr_gfdf`** — Produces a sampled **g**raduate **f**iltered **d**ata**f**rame containing vacancies relevant to _graduates_
+- **`evr_egfdf`** — Produces a sampled **f**iltered **d**ata**f**rame containing vacancies relevant to _**e**ngineering_ and _**g**raduates_
+- **`evr_efdf`** — Produces a sampled **f**iltered **d**ata**f**rame containing vacancies relevant to _**e**ngineering_
+- **`evr_ipfdf`** — Produces a sampled **f**iltered **d**ata**f**rame containing vacancies relevant to _**i**nternships/**p**lacements_
+- **`evr_gfdf`** — Produces a sampled **f**iltered **d**ata**f**rame containing vacancies relevant to _**g**raduates_
 - **`evr_ufdf`** — Produces a sampled **u**n**f**iltered **d**ata**f**rame containing unfiltered vacancy data
 - **`evr_filter_visuals`** — Produces visualisations of the filtering results
 
