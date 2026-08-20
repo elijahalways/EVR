@@ -10,8 +10,10 @@
 - **NLP** — Natural Language Processing
 - **VSRS** — Visa/sponsorship/right-to-work statements
 - **fdf** — Filtered DataFrame (Engineering and Internships/Placements)
-- **efdf** — Engineering-filtered DataFrame
-- **ipfdf** — Internships/Placements-filtered DataFrame
+- **egfdf** — Engineering and Graduate filtered DataFrame
+- **efdf** — Engineering filtered DataFrame
+- **ipfdf** — Internships/Placements filtered DataFrame
+- **gfdf** — Graduate filtered DataFrame
 - **ufdf** — Unfiltered DataFrame
 
 ## Overview
@@ -30,8 +32,10 @@ Notebook names begin with `evr_`, representing **e**ngineering **v**isa **r**ese
 ### Filter
 
 - **`evr_fdf`** — Produces a **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_ and _internships/placements_
+- **`evr_egfdf`** — Produces a sampled **e**ngineering and **g**raduate **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_ and _graduates_
 - **`evr_efdf`** — Produces a sampled **e**ngineering **f**iltered **d**ata**f**rame containing vacancies relevant to _engineering_
 - **`evr_ipfdf`** — Produces a sampled **i**nternships/**p**lacements **f**iltered **d**ata**f**rame containing vacancies relevant to _internships/placements_
+- **`evr_gfdf`** — Produces a sampled **g**raduate **f**iltered **d**ata**f**rame containing vacancies relevant to _graduates_
 - **`evr_ufdf`** — Produces a sampled **u**n**f**iltered **d**ata**f**rame containing unfiltered vacancy data
 - **`evr_filter_visuals`** — Produces visualisations of the filtering results
 
@@ -49,13 +53,15 @@ Please note that only data from `evr_fdf` are directly used in VSRS classificati
 ## Recommended Order
 
 1. `evr_fdf`
-2. `evr_efdf`
-3. `evr_ipfdf`
-4. `evr_ufdf`
-5. `evr_filter_visuals`
-6. `evr_nlp_metrics`
-7. `evr_nlp_model`
-8. `evr_nlp_visuals`
+2. `evr_egfdf`
+3. `evr_efdf`
+4. `evr_ipfdf`
+5. `evr_gfdf`
+6. `evr_ufdf`
+7. `evr_filter_visuals`
+8. `evr_nlp_metrics`
+9. `evr_nlp_model`
+10. `evr_nlp_visuals`
 
 ## Outputs
 
@@ -72,10 +78,10 @@ Each output file is described below:
 - `LS2_2` — dual-stage LinearSVC Legality (2.2) classification model
 
 ### CSV
-- `[fdf/efdf/ipfdf/ufdf]_[snapshot_date]` — Data of each filter type for snapshot date (see **Data** section)
-- `[fdf/efdf/ipfdf/ufdf]_all` — Combined data of each filter type
-- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_applied` — Combined data of each filter type with additional VSRS column
-- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_filtered` — Combined data of each filter type containing only rows with VSRS statements
+- `[fdf/egfdf/efdf/ipfdf/gfdf/ufdf]_[snapshot_date]` — Data of each filter type for snapshot date (see **Data** section)
+- `[fdf/egfdf/efdf/ipfdf/gfdf/ufdf]_all` — Combined data of each filter type
+- `[fdf/egfdf/efdf/ipfdf/gfdf/ufdf]_all_vsrs_applied` — Combined data of each filter type with additional VSRS column
+- `[fdf/egfdf/efdf/ipfdf/gfdf/ufdf]_all_vsrs_filtered` — Combined data of each filter type containing only rows with VSRS statements
 - `vsrs_400` — Randomly shuffled 400 datapoint sample from `fdf_all_vsrs_filtered`
 - `vsrs_400_classified` — Manually classified data from `vsrs_400`
 - `vsrs_400_relevance` — Manually classified relevance data from `vsrs_400`
