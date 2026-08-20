@@ -73,7 +73,7 @@ Each output files are described below:
 - `LS2_2` — dual-stage LinearSVC trained Legality (2.2) classification model
 
 ### CSV
-- `[fdf/efdf/ipfdf/ufdf]_[date]` — Data of each filter type for snapshot date (see **Data** section)
+- `[fdf/efdf/ipfdf/ufdf]_[snapshot_date]` — Data of each filter type for snapshot date (see **Data** section)
 - `[fdf/efdf/ipfdf/ufdf]_all` — Combined data of each filter type
 - `[fdf/efdf/ipfdf/ufdf]_all_vsrs_applied` — Combined data of each filter type with additonal VSRS column
 - `[fdf/efdf/ipfdf/ufdf]_all_vsrs_filtered` — Combined data of each filter type with VSRS columns only (rows without VSRS are removed)
@@ -132,7 +132,7 @@ The dates in the filenames follow the **`YYYY_MM_DD`** format.
 
 The required snapshots and part files are:
 
-| Snapshot | Part files |
+| Snapshot Date | Part files |
 |---|---|
 | 2022_10_02 | `00000`–`00006` |
 | 2023_01_01 | `00002`–`00009` |
