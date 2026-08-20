@@ -52,11 +52,10 @@ Please note that only data from `evr_fdf` are directly used in VSRS classificati
 2. `evr_efdf`
 3. `evr_ipfdf`
 4. `evr_ufdf`
-5. `evr_filter_comparison`
-6. `evr_filter_visuals`
-7. `evr_nlp_metrics`
-8. `evr_nlp_model`
-9. `evr_nlp_visuals`
+5. `evr_filter_visuals`
+6. `evr_nlp_metrics`
+7. `evr_nlp_model`
+8. `evr_nlp_visuals`
 
 ## Outputs
 
