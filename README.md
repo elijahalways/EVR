@@ -64,22 +64,22 @@ This project produces multiple output files including:
 - `.csv` — Data files containing processed and/or filtered vacancy datasets
 - `.svg` — Vector graphics containing visualisations and figures generated during analysis
 
-Each output files are described below:
+Each output file is described below:
 
 ### PKL
-- `LS1` — single-stage LinearSVC trained Classification (1) model
-- `LS2_1` — dual-stage LinearSVC trained Relevance (2.1) classification model
-- `LS2_2` — dual-stage LinearSVC trained Legality (2.2) classification model
+- `LS1` — single-stage LinearSVC Classification (1) model
+- `LS2_1` — dual-stage LinearSVC Relevance (2.1) classification model
+- `LS2_2` — dual-stage LinearSVC Legality (2.2) classification model
 
 ### CSV
 - `[fdf/efdf/ipfdf/ufdf]_[snapshot_date]` — Data of each filter type for snapshot date (see **Data** section)
 - `[fdf/efdf/ipfdf/ufdf]_all` — Combined data of each filter type
-- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_applied` — Combined data of each filter type with additonal VSRS column
-- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_filtered` — Combined data of each filter type with VSRS columns only (rows without VSRS are removed)
+- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_applied` — Combined data of each filter type with additional VSRS column
+- `[fdf/efdf/ipfdf/ufdf]_all_vsrs_filtered` — Combined data of each filter type containing only rows with VSRS statements
 - `vsrs_400` — Randomly shuffled 400 datapoint sample from `fdf_all_vsrs_filtered`
 - `vsrs_400_classified` — Manually classified data from `vsrs_400`
-- `vsrs_400_relevance` — Manually relevance classified data from `vsrs_400`
-- `vsrs_400_legality` — Manually legality classified data from `vsrs_400`
+- `vsrs_400_relevance` — Manually classified relevance data from `vsrs_400`
+- `vsrs_400_legality` — Manually classified legality data from `vsrs_400`
 - `vsrs_1240` — Randomly shuffled 1240 datapoint sample from `fdf_all_vsrs_filtered`
 - `vsrs_1240_predicted` — NLP-predicted (LS1 + LS2) data from `vsrs_1240`
 - `vsrs_1240_comparison` — 3-column extract from `vsrs_1240_predicted` consisting only of VSRS and both classifications (LS1 + LS2)
