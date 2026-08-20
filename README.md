@@ -95,7 +95,7 @@ Each output file is described below:
 - `vsrs_1640_LS2` — Combined classified dataset of manually-obtained `vsrs_400_classified` and NLP LS2's result from `vsrs_1240_predicted`
 
 ### SVG
-- `fdf_vsrs_line` — line plot of fdf over time
+- `fdf_line` — line plot of fdf jobs (Engineering Internships/Placements) over time
 - `filter_pie` — pie chart of VSRS proportion across filter type
 - `filter_line` — line plot of VSRS proportion across filter type over time
 - `Matrix_LR1` — confusion matrix example of single-stage Logistic Regression for Classification (1)
