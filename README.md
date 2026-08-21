@@ -20,6 +20,10 @@
 
 This repository contains the Python code for the EVR project, implemented using Jupyter Notebooks.
 
+The overall workflow is shown below.
+
+evr_workflow.png
+
 The notebooks are divided into two stages:
 
 1. **Filter** — Processes and filters the raw Adzuna vacancy data
