@@ -22,7 +22,7 @@ This repository contains the Python code for the EVR project, implemented using 
 
 The overall workflow is shown below.
 
-![EVR Overview](evr_overview.png)
+![EVR Workflow](evr_workflow.png)
 
 The notebooks are divided into two stages:
 
