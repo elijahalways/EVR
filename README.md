@@ -24,7 +24,7 @@ The overall workflow is shown below.
 
 ![EVR Workflow](evr_workflow.png)
 
-The notebooks are divided into two stages:
+The notebooks are divided into two sections:
 
 1. **Filter** — Processes and filters the raw Adzuna vacancy data
 2. **NLP** — Develops and applies machine-learning models to classify VSRS
