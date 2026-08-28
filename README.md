@@ -109,8 +109,8 @@ _SVG files available in figures folder_
 - `Matrix_LS1` — confusion matrix example of single-stage LinearSVC for Classification (1)
 - `Matrix_LS2_1` — confusion matrix example of dual-stage LinearSVC for Relevance (2.1)
 - `Matrix_LS2_2` — confusion matrix example of dual-stage LinearSVC for Legality (2.2)
-- `macro-f1_by_size` — line plot of macro-f1 score by manually labelled sample size (up to 400) for LinearSVC models
 - `accuracy_by_size` — line plot of accuracy score by manually labelled sample size (up to 400) for LinearSVC models
+- `macro-f1_by_size` — line plot of macro-f1 score by manually labelled sample size (up to 400) for LinearSVC models
 - `fdf_nlp_pie` — pie chart of classification proportion across LS1 and LS2 models
 - `fdf_nlp_line` — line plot of classification proportion across LS1 and LS2 models over time
 
