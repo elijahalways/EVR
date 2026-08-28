@@ -44,7 +44,7 @@ Notebook names begin with `evr_`, representing **e**ngineering **v**isa **r**ese
 - **`evr_filter_visuals`** — Produces visualisations of the filtering results
 
 The sampled datasets contain **12,000 records**, with **1,000 records selected from each quarterly snapshot**. A `random_state` of **42** is used.
-`evr_fdf` is not sampled because fewer than 12,000 records remain after filtering. Although `evr_egfdf` contains more than 12,000 records overall, its final quarterly snapshot contains fewer than 1,000 records by less than 50 records. This difference was considered negligible and the dataset was therefore sampled using the available records.
+`evr_fdf` is not sampled because fewer than 12,000 records remain after filtering. Although `evr_egfdf` contains more than 12,000 records overall, its final quarterly snapshot contains fewer than 1,000 records by less than 50 records (i.e. more than 950). This difference was considered negligible and the dataset was therefore sampled using the available records.
 
 Please note that only data from `evr_fdf` are directly used in VSRS classification both manually and using NLP.
 
